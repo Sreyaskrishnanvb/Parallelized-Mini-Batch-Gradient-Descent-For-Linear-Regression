@@ -6,6 +6,7 @@ This project implements Linear Regression using Mini-Batch Gradient Descent, par
 The project demonstrates how classical machine learning algorithms can be efficiently parallelized using shared-memory parallel programming.
 
 🚀 Features
+
 Linear Regression implemented from scratch in C/C++
 Mini-Batch Gradient Descent optimization
 Parallel gradient computation using OpenMP
@@ -14,6 +15,7 @@ Thread-safe gradient aggregation
 Scalable and performance-oriented design
 
 🧠 Why OpenMP?
+
 OpenMP provides a simple and efficient way to parallelize loops and shared-memory computations. In this project:
 Each mini-batch is processed in parallel
 Gradient calculations are distributed across threads
